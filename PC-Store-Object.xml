@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="PC-Store-Object">
+    <DisplayName>PC-Store-Object</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <KeyFragment ref="request.queryparam.id"/>
+    </CacheKey>
+    <CacheResource>demoCache</CacheResource>
+    <Scope>Exclusive</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>3600</TimeoutInSec>
+    </ExpirySettings>
+    <Source>SCResPrefix.data</Source>
+</PopulateCache>

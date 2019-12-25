@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="6640-cachingtest">
+    <Basepaths>/caching</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1563273412052</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>CachingTest</DisplayName>
+    <LastModifiedAt>1563273412052</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:4da094316c1103e90fa435a4433b040666ab39e62257b12f968bdb72932eb5061400f63cac6af686c216c4f000d411f2592ed4f994b7145db472cd0b7cf7c95e</ManifestVersion>
+    <Policies>
+        <Policy>AM-Create-Req</Policy>
+        <Policy>EV-Extract-SC-Response</Policy>
+        <Policy>LC-Fetch-Object</Policy>
+        <Policy>PC-Store-Object</Policy>
+        <Policy>RF-MissingFields</Policy>
+        <Policy>SC-Get-Config</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
